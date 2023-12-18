@@ -51,19 +51,19 @@ const HeaderLayout: ForwardRefRenderFunction<
       <div
         css={{
           color: '#3d8eff',
-          fontSize: 36,
+          fontSize: 35,
         }}
       >
         <div
           css={{ color: 'white', height: 42, paddingTop: 6, paddingBottom: 6 }}
         >
-          <img css={{ maxHeight: '130%' }} src={'./assets/logo.png'} />
+          <img css={{ maxHeight: '100%' }} src={'./assets/logo.png'} />
         </div>
       </div>
       <div css={{ display: 'flex', alignItems: 'center' }}>
         <div
           css={{
-            margin: '0 16px',
+            margin: '0 10px',
             cursor: 'pointer',
             color: '#fff',
             fontWeight: 700,
@@ -84,7 +84,7 @@ const HeaderLayout: ForwardRefRenderFunction<
         </div>
         <div
           css={{
-            margin: '0 16px',
+            margin: '0 10px',
             cursor: 'pointer',
             color: '#fff',
             fontWeight: 700,
@@ -103,7 +103,7 @@ const HeaderLayout: ForwardRefRenderFunction<
             color: '#fff',
             lineHeight: 1,
             background: '#3a3a4c',
-            padding: '8px 14px',
+            padding: '8px 10px',
             borderRadius: 8,
             cursor: 'pointer',
             ':hover': {
@@ -112,7 +112,7 @@ const HeaderLayout: ForwardRefRenderFunction<
           }}
           onClick={openPreview}
         >
-          <div css={{ marginRight: 4, fontSize: 20 }}>
+          <div css={{ marginRight: 1, fontSize: 10 }}>
             <PlayCircleIcon />
           </div>{' '}
           Preview
