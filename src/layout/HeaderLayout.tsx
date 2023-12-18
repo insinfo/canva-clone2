@@ -54,6 +54,7 @@ const HeaderLayout: ForwardRefRenderFunction<
           fontSize: 35,
         }}
       >
+        
         <div
           css={{ color: 'white', height: 42, paddingTop: 6, paddingBottom: 6 }}
         >
