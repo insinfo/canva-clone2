@@ -67,7 +67,7 @@ This project is open-source and available under MIT LICENSE. See `LICENSE` for m
 
 Safeer Hussain - msafeerhussain13@gmail.com
 
-Project Link: [https://github.com/safeerdev/canva-clone](https://canva-clone-rho.vercel.app/)
+Project Link: [https://canva-clone-rho.vercel.app/](https://canva-clone-rho.vercel.app/)
 
 Portfolio: [https://safeerdev.me](https://safeerdev.me)
 
