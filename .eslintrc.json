@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["import", "unused-imports"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "import/extensions": "off",
+        "react/jsx-sort-props": [
+          "error",
+          {
+            "callbacksLast": true,
+            "shorthandFirst": true,
+            "reservedFirst": true
+          }
+        ],
+        "import/order": [
+          "error",
+          {
+            "alphabetize": {
+              "order": "asc",
+              "caseInsensitive": true
+            }
+          }
+        ],
+        "unused-imports/no-unused-imports": "error",
+        "no-case-declarations": "off",
+        "@nx/enforce-module-boundaries": [
+          "error",
+          {
+            "enforceBuildableLibDependency": true,
+            "allow": [],
+            "depConstraints": [
+              {
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": ["*"]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["prettier"],
+      "rules": {}
+    }
+  ]
+}

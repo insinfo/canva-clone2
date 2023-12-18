@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "tmp"]
+}
